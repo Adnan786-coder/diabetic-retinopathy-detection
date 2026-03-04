@@ -94,16 +94,22 @@ Streamlit UI Displays Result
 ```
 diabetic-retinopathy-app/
 │
-├── app.py                 # Streamlit Web Application
-├── Dockerfile             # Docker container instructions
-├── requirements.txt       # Python dependencies
+├── app.py
+├── Dockerfile
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
 ├── model/
-│   └── best_dr_model.pth  # Trained PyTorch model
+│   └── best_dr_model.pth
 │
-├── src/                   # Helper scripts (preprocessing / utilities)
+├── src/
+│   ├── __init__.py
+│   ├── model.py
+│   └── preprocess.py
 │
-└── README.md              # Project documentation
+└── notebooks/
+    └── diabetic-retinopathy.ipynb
 ```
 ## 3️⃣ Create Virtual Environment (Recommended)
 
