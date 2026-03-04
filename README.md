@@ -1,14 +1,4 @@
 🩺 Diabetic Retinopathy Detection — End-to-End ML Deployment
-
-
-
-
-
-
-
-
-
-
 📖 Executive Summary
 
 This repository contains an end-to-end Deep Learning system for Diabetic Retinopathy detection from retinal fundus images.
@@ -47,9 +37,7 @@ Class	Condition
 2	Moderate
 3	Severe
 4	Proliferative DR
-
-The system outputs:
-
+Example Output
 Prediction: Moderate DR
 Confidence: 0.56
 🏗️ Technical Architecture
@@ -68,7 +56,7 @@ Containerization: Docker
 
 Programming Language: Python
 
-Workflow
+⚙️ Workflow
 User Uploads Retina Image
         ↓
 Image Preprocessing (Resize + Normalize)
@@ -106,17 +94,12 @@ Docker (optional but recommended)
 
 2️⃣ Clone the Repository
 git clone https://github.com/YOUR_USERNAME/diabetic-retinopathy-detection.git
-
 cd diabetic-retinopathy-detection
 3️⃣ Create Virtual Environment (Recommended)
-
-Linux / macOS:
-
+Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
-
-Windows:
-
+Windows
 python -m venv venv
 venv\Scripts\activate
 4️⃣ Install Dependencies
@@ -167,10 +150,9 @@ Softmax probabilities across 5 DR classes
 
 The model is trained using the APTOS 2019 Blindness Detection Dataset.
 
-Dataset contains retinal fundus images labeled with diabetic retinopathy severity.
+The dataset contains retinal fundus images labeled with diabetic retinopathy severity.
 
-Classes:
-
+Classes
 0 — No DR
 1 — Mild
 2 — Moderate
